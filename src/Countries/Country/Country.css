@@ -1,0 +1,35 @@
+.country-container{
+    border: 2px solid skyblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.visited{
+    background-color: rgb(203, 199, 199);
+    color: black;
+}
+
+.ul-style{
+    
+    text-decoration: none;
+    /* display: inline; */
+    list-style: none;
+    /* text-align: center; */
+    padding: 5px 10px 5px 10px;
+}
+.ul-style img {
+    width: 75px;
+}
+.li-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid skyblue;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
+}
